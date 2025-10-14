@@ -1,0 +1,16 @@
+.wrapper {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  min-height: 200px;
+}
+
+.addBtn {
+  background: #2f54eb;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.addBtn:hover {
+  background: #1d39c4;
+}

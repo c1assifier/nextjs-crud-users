@@ -1,3 +1,7 @@
-export default function HomePage() {
-  return <h1>The user CRUD app</h1>;
-}
+import { redirect } from 'next/navigation';
+
+export const HomePage = () => {
+  redirect('/users');
+};
+
+export default HomePage;
