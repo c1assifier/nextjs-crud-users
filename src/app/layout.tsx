@@ -1,19 +1,39 @@
+'use client';
+
+import React from 'react';
+import { ConfigProvider, Layout } from 'antd';
+import ruRU from 'antd/locale/ru_RU';
 import './globals.css';
-import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'User CRUD App',
-  description: 'Test assignment — CRUD app with Next.js, Ant Design, RHF, Zod',
-};
+const { Header, Content, Footer } = Layout;
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='ru'>
-      <body>{children}</body>
+    <html lang="ru">
+      <body>
+        <ConfigProvider
+          locale={ruRU}
+          theme={{
+            token: {
+              colorPrimary: '#2f54eb',
+              borderRadius: 8,
+            },
+            components: {
+              Button: {
+                colorPrimaryHover: '#1d39c4',
+              },
+            },
+          }}
+        >
+          <Layout style={{ minHeight: '100vh' }}>
+            <Header className="header">Test task CRUD App</Header>
+            <Content className="content">{children}</Content>
+            <Footer className="footer">
+              © {new Date().getFullYear()} CRUD App by Petrov Artem
+            </Footer>
+          </Layout>
+        </ConfigProvider>
+      </body>
     </html>
   );
 }
