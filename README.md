@@ -25,7 +25,7 @@
 npm install
 
 # Запуск дев-сервера
-npm run dev
+npm run dev:mock (запуск с использованием json-server)
 # или
 pnpm dev
 ```
