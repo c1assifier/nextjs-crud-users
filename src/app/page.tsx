@@ -1,7 +1,5 @@
 import { redirect } from 'next/navigation';
 
-export const HomePage = () => {
+export default function Page() {
   redirect('/users');
-};
-
-export default HomePage;
+}
