@@ -5,6 +5,8 @@
 
 ---
 
+**Посмотреть демо:** [https://nextjs-crud-users-six.vercel.app/users](https://nextjs-crud-users-six.vercel.app/users)
+
 ## 🚀 Технологии
 
 - **Next.js (App Router, TypeScript)**
