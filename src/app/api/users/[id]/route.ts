@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { User } from '@/shared/types/user';
-import { users } from '../route';
+import { users } from '../data';
 
 export async function PUT(req: Request, context: any) {
   const id = context.params?.id;
