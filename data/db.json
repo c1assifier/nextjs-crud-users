@@ -1,60 +1,11 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Артем Иванов",
-      "email": "artem@example.com",
-      "phone": "+79998887766",
-      "role": "Admin"
-    },
-    {
-      "id": "2",
-      "name": "Мария Петрова",
-      "email": "maria@example.com",
-      "phone": "+79997776655",
-      "role": "User"
-    },
-    {
-      "id": "3",
-      "name": "Алексей Смирнов",
-      "email": "alexey@example.com",
-      "phone": "+79995554433",
-      "role": "Manager"
-    },
-    {
-      "id": "4",
-      "name": "Екатерина Соколова",
-      "email": "katya@example.com",
-      "phone": "+79993332211",
-      "role": "User"
-    },
-    {
-      "id": "5",
-      "name": "Иван Кузнецов",
-      "email": "ivan@example.com",
-      "phone": "+79991112233",
-      "role": "User"
-    },
-    {
-      "id": "6",
-      "name": "Анна Орлова",
-      "email": "anna@example.com",
-      "phone": "+79995551122",
-      "role": "Manager"
-    },
-    {
-      "id": "7",
-      "name": "Павел Воробьёв",
-      "email": "pavel@example.com",
-      "phone": "+79997773311",
-      "role": "Admin"
-    },
-    {
-      "id": "8",
-      "name": "Наталья Лебедева",
+      "name": "Artem",
       "email": "nata@example.com",
       "phone": "+79994445566",
-      "role": "User"
+      "role": "User",
+      "id": "8"
     },
     {
       "id": "9",
@@ -92,11 +43,11 @@
       "role": "User"
     },
     {
-      "id": "14",
-      "name": "Юлия Морозова",
+      "name": "Юлия Вот простое имя",
       "email": "yulia@example.com",
       "phone": "+79997776677",
-      "role": "User"
+      "role": "Admin",
+      "id": "14"
     },
     {
       "id": "15",
@@ -139,6 +90,13 @@
       "email": "sofia@example.com",
       "phone": "+79998886611",
       "role": "User"
+    },
+    {
+      "id": "ce58",
+      "name": "Простое Имя",
+      "email": "example@mail.ru",
+      "phone": "+79112304536",
+      "role": "Admin"
     }
   ]
 }
